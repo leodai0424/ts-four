@@ -194,13 +194,13 @@ a h4:hover{text-decoration: underline;}
   width:330px;
   right:0;
   padding-top:10px;
-  padding-left:0px;
+  padding-right:35px;
   padding-bottom:11px;
   color: white;
   text-decoration: none;
   z-index:50000;
   background-color:rgba(50,50,50,1);
-  text-align:left;
+  text-align:right;
   
 }
 
@@ -208,9 +208,7 @@ a h4:hover{text-decoration: underline;}
   position:fixed;
   bottom:0;
   right:330px;
-  
   z-index:50000;
-  
   width: 0;
 height: 0;
 border-style: solid;

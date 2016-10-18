@@ -85,7 +85,7 @@ html,body {
 
 
 
-.blackfooter{
+/*.blackfooter{
   background-color:rgba(50,50,50,0.8);
   width:100%;
   position:absolute;
@@ -94,7 +94,7 @@ html,body {
   z-index: 2;
   text-align: center;
   color:white;
-}
+}*/
 
 /**/
 
@@ -170,21 +170,39 @@ a{text-decoration: none;}
 z-index:5;
 }
 
-a h3{
+a h4{
   position:fixed;
-  bottom:10px;
+  bottom:-30px;
   width:100%;
   left:0;
   padding-top:10px;
-  padding-bottom:10px;
+  padding-left:20px;
+  padding-bottom:30px;
   color: #000;
   text-decoration: none;
   z-index:50000;
   background-color:rgba(0,200,255,0.6);
-    
+  text-align:left;
+
 }
 
+a h4:hover{text-decoration: underline;}
 
+.grayfooter{
+  position:fixed;
+  bottom:0px;
+  width:350px;
+  right:0;
+  padding-top:10px;
+  padding-left:20px;
+  padding-bottom:9px;
+  color: white;
+  text-decoration: none;
+  z-index:50000;
+  background-color:rgba(50,50,50,1);
+  text-align:left;
+  
+}
 
 
 

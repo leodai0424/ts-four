@@ -191,10 +191,10 @@ a h4:hover{text-decoration: underline;}
 .grayfooter{
   position:fixed;
   bottom:0px;
-  width:350px;
+  width:320px;
   right:0;
   padding-top:10px;
-  padding-left:20px;
+  padding-left:0px;
   padding-bottom:9px;
   color: white;
   text-decoration: none;
@@ -204,6 +204,20 @@ a h4:hover{text-decoration: underline;}
   
 }
 
+.trigrayfooter{
+  position:fixed;
+  bottom:0;
+  right:320px;
+  
+  z-index:50000;
+  
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 0 40px 40px;
+border-color: transparent transparent rgba(50,50,50,1) transparent;
+
+}
 
 
 a:hover,

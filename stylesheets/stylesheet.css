@@ -154,7 +154,7 @@ a{text-decoration: none;}
   top:80px;
   left:0;
   padding-left:30px;
-  
+  margin-right:5px;
 }
 
 .icon{
@@ -184,7 +184,7 @@ a:focus {
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 700px) {
+@media screen and (min-width: 422px) and (max-width: 730px) {
   .icon{display:none;}
  
   .menubutton{display:none;}
@@ -201,6 +201,7 @@ a:focus {
     position:relative;
     top:80px;
     padding-left:10px;
+    margin-right:5px;
   }
     
 }

@@ -148,7 +148,7 @@ a{text-decoration: none;}
 
 .subtrademark{
   position:relative;
-  top:80px;
+  top:85px;
   left:0;
   padding-left:30px;
   margin-right:5px;
@@ -172,14 +172,14 @@ z-index:5;
 
 a h3{
   position:fixed;
-  bottom:50px;
+  bottom:10px;
   width:100%;
   left:0;
   padding-top:10px;
   padding-bottom:10px;
   color: #000;
   text-decoration: none;
-  z-index:5000;
+  z-index:50000;
   background-color:rgba(0,200,255,0.6);
     
 }

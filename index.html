@@ -20,9 +20,11 @@
   <!--css-->
   <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
   
-  <link rel="stylesheet" type="text/css" media="screen and (min-width: 422px) and (max-width: 730px)" href="stylesheets/stylesheet.css" />
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 422px) and (max-width: 810px)" href="stylesheets/stylesheet.css" />
   
   <link rel="stylesheet" type="text/css" media="screen and (min-width: 310px) and (max-width: 422px)" href="stylesheets/stylesheet.css" />
+  
+  
   
   <!-- Bootstrap Core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -38,12 +40,14 @@
 <body>
   
   
+  
+  
   <div class="menu">
       
       <div class="trademark"><img src="https://lh3.googleusercontent.com/-sTNRQP3TjoU/WARBjw52I7I/AAAAAAAAdcQ/OmslEc0VwSk1dkHN3EWNxMfyY0aaqiJKwCHM/s288/5067026786458.jpg" border="0" ></div>
       
       <div class="menubutton">
-        <a href="https://leodai0424.github.io/ts-three/about.html" class="menu">About</a>
+        <a href="https://leodai0424.github.io/ts-three/about.html" class="menu" onMouseOver="window.status='刪除';return true" >About</a>
         <a href="https://leodai0424.github.io/ts-three/news.html" class="menu">News</a>
         <a href="https://leodai0424.github.io/ts-three/products.html" class="menu">Products</a>
         <a href="https://leodai0424.github.io/ts-three/dealer.html" class="menu">Dealer</a>
@@ -62,6 +66,8 @@
                 <a href="mailto:besonicdesign@gmail.com" ><i class="fa fa-envelope-o fa-2x" aria-hidden="true" ></i></a>
         <a href="https://www.instagram.com/besonicdesign" ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
         <a href="https://www.facebook.com/BeSonicDesign" ><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+        <a href="#" ><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="#" ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
       </div>
     
   </div>
@@ -123,6 +129,32 @@
   </div>
   
   <div class="trigrayfooter"></div>
+  
+  <!--sidenav-->
+  
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">News</a>
+  <a href="#">Products</a>
+  <a href="#">Dealer</a>
+</div>
+
+
+<span style="font-size:30px; cursor:pointer" onclick="openNav()" class="mobilemenubotton">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  
+  
+  <!--sidenav-->
   
   
 

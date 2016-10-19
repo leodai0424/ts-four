@@ -219,15 +219,17 @@ a:hover, a:focus {
   font-family: 'Open Sans','Microsoft JhengHei', '微軟正黑體',sans-serif, Verdana, Arial, 'Microsoft YaHei' !important;
 }
 
-.sidenav span a {
+.sidenav span {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: rgba(0,200,255,0.6);
-  display: inline;
+  display: block;
   transition: 0.3s;
   font-weight:;
   font-family: 'Open Sans','Microsoft JhengHei', '微軟正黑體',sans-serif, Verdana, Arial, 'Microsoft YaHei' !important;
+  position:absolute;
+  bottom:0;
 }
 
 

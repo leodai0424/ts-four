@@ -64,9 +64,7 @@ html,body {height: 100%;}
 
 /**/
 
-h4, .grayfooter {text-shadow: 0px 0px 5px #555555;}
 
-.menubutton a {text-shadow:1px 1px 5px #999999;}
 
 div.menu {
   background-color: black;
@@ -96,6 +94,9 @@ div.menu {
   right: 0;  
   top: 35px;
   z-index: 1; 
+  text-shadow:1px 1px 5px #999999;
+  text-align:right;
+  padding-right:35px;
 }
 
 a {text-decoration: none;}
@@ -104,11 +105,13 @@ a {text-decoration: none;}
   color:rgb(180,180,180);
   text-decoration: none;
   transition: 0.3s;
+  
 }
 
 .menubutton a {
   color: white;
-  margin: 8px 8px 8px 8px;
+  text-align:right;
+  margin-left:15px;
 }
 
 .line {
@@ -154,6 +157,7 @@ a h4 {
   z-index: 2;
   background-color: rgba(0,200,255,0.6);
   text-align: left;
+  text-shadow: 0px 0px 5px #555555;
 }
 
 a h4:hover {text-decoration: none;}
@@ -172,6 +176,7 @@ a h4:hover {text-decoration: none;}
   background-color: rgba(50,50,50,1);
   text-align: right;
   font-size: small;
+  text-shadow: 0px 0px 5px #555555;
 }
 
 .trigrayfooter {

@@ -217,19 +217,21 @@ a:hover, a:focus {
   font-family: 'Open Sans','Microsoft JhengHei', '微軟正黑體',sans-serif, Verdana, Arial, 'Microsoft YaHei' !important;
 }
 
-.sidenav .ench {
-  
-  color:rgba(150,150,150,1);
-  display:block;
-  margin-top:70px;
-  margin-bottom:10px;
+div.mobileicon {
+  margin-top: 70px;
+  margin-bottom: 10px;
 }
 
-.sidenav span a {
-  
-  color:rgba(150,150,150,1);
-display:inline;
-margin:10px}
+div.mobileicon a {
+  display: inline;
+  color: rgb(150,150,150)
+}
+
+span.ench a {
+  display: inline;
+  font-size: medium;
+  color: rgb(150,150,150)
+}
 
 
 .sidenav a:hover{

@@ -30,7 +30,6 @@ body {
 	font-size: 14px;
 }
 
-
 html,body {height: 100%;}
 
 .carousel, .item, .active {height: 100%;}
@@ -151,7 +150,7 @@ a h4 {
   text-align: left;
 }
 
-a h4:hover {text-decoration: underline;}
+a h4:hover {text-decoration: none;}
 
 .grayfooter {
   position: fixed;
@@ -311,6 +310,11 @@ span.ench a {
   right: 10px;
   top: 10px;
   }
+  
+  a h4 {
+    padding-top: 15px;
+    padding-bottom: 52px;
+}
 }
 
 @media screen and (min-width: 310px) and (max-width: 422px) {
@@ -341,7 +345,7 @@ span.ench a {
     left: 0;
     padding-left: 10px;
     padding-top: 10px;
-    width: 100%;
+    width: 80%;
     z-index: 1;
   }
   
@@ -349,7 +353,7 @@ span.ench a {
     position: relative;
     top: 70px;
     padding-left: 10px;
-    margin-right: 5px;
+    width:95%;
   }
   
   .mobilemenubotton {
@@ -359,4 +363,9 @@ span.ench a {
   right: 10px;
   top: 10px;
   }
+  
+  a h4 {
+    padding-top: 15px;
+    padding-bottom: 52px;
+}
 }

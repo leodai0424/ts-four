@@ -192,8 +192,8 @@ a:hover, a:focus {
 .sidenav {
   
     height: 100%;
-    width: 100%;
-    position: fixed;
+    width: 0;
+    position: absolute;
     z-index: 5;
     top: 0;
     right: 0;
@@ -229,7 +229,7 @@ a:hover, a:focus {
   
   color:rgba(150,150,150,1);
 display:inline;
-margin:20px}
+margin:10px}
 
 
 .sidenav a:hover{

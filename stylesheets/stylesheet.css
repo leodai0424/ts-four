@@ -1,23 +1,21 @@
 /* CSS Mobile Reset */
-html, body
-{
+html, body {
  margin: 0;
  padding: 0;
  border: 0;
 }
 
-body
-{
+body {
  font-family:Arial,  sans-serif;
  line-height:1.5;
  font-size:16px;
  background: #fff;
- color: #000;
+ color: white;
  word-wrap: break-word;
  -webkit-text-size-adjust: none;
 }
 
-h1, h2, h3, h4, h5, h6{ font-weight: normal; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
 p img { float: left; margin: 0 10px 5px 0; padding: 0; }
 
@@ -30,7 +28,7 @@ table { width:auto; border-collapse: collapse;border-spacing: 0; }
   font-family: 'Open Sans','Microsoft JhengHei', '微軟正黑體',sans-serif, Verdana, Arial, 'Microsoft YaHei' !important;    
 }
 
-body{
+body {
 	font-family: 'Open Sans','Microsoft JhengHei', '微軟正黑體',sans-serif, Verdana, Arial, 'Microsoft YaHei' !important;
 	background: #000;
 	font-weight: 400;
@@ -38,19 +36,11 @@ body{
 }
 
 
-html,body {
-    height: 100%;
-}
+html,body {height: 100%;}
 
-.carousel,
-.item,
-.active {
-    height: 100%;
-}
+.carousel, .item, .active {height: 100%;}
 
-.carousel-inner {
-    height: 100%;
-}
+.carousel-inner {height: 100%;}
 
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -68,240 +58,297 @@ html,body {
 .carousel-caption {
   position: absolute;
   left: 15px;
-  right:15px;
+  right: 15px;
   bottom: 20px;
-  z-index: 100;
+  z-index: 1;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
   color: black;
-  
 }
-
-
-
-
-
-
-
-/*.blackfooter{
-  background-color:rgba(50,50,50,0.8);
-  width:100%;
-  position:absolute;
-  bottom: 0px;
-  height:20px;
-  z-index: 2;
-  text-align: center;
-  color:white;
-}*/
 
 /**/
 
-div.menu{
-  background-color:black;
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;  
-  height:110px;
-  z-index:5;
+div.menu {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  height: 110px;
+  z-index: 1;
 }
 
-.trademark{
-  
-  position:absolute;
-  top:0;
-  left:0;
-  padding-left:30px;
-  padding-top:20px;
-  width:100%;
-  z-index:5;
+.trademark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  padding-top: 20px;
+  width: 100%;
+  z-index: 1;
 }
 
-.menubutton{
-  font-size:20px;
-  font-weight:700;
-  position:absolute;
-  width:400px;
-  right:0;  
-  top:35px;
-  z-index:5; 
+.menubutton {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  width: 400px;
+  right: 0;  
+  top: 35px;
+  z-index: 1; 
 }
 
-a{text-decoration: none;}
+a {text-decoration: none;}
 
-.menubutton a:hover{
-  text-decoration:underline;
+.menubutton a:hover {
+  text-decoration: underline;
 }
 
-.menubutton a{
-  color:white;
-  margin:10px 10px 10px 10px;}
-
-.line{
-  height:2px;
-  background-color:white;
-  position:relative;
-  top:70px;
-  }
-
-.subtrademark{
-  position:relative;
-  top:85px;
-  left:0;
-  padding-left:30px;
-  margin-right:5px;
-  
+.menubutton a {
+  color: white;
+  margin: 8px 8px 8px 8px;
 }
 
-.icon{
-  position:absolute;
-  top:78px;
-  right:0;
-  padding-right:30px;
-  z-index:5;
+.line {
+  height: 2px;
+  background-color: white;
+  position: relative;
+  top: 70px;
 }
 
-.icon i,.icon a{
-  margin:3px;
-  color:white;
-  font-size:20px;
-z-index:5;
+.subtrademark {
+  position: relative;
+  top: 85px;
+  left: 0;
+  padding-left: 30px;
+  margin-right: 5px;
 }
 
-a h4{
-  position:fixed;
-  bottom:-20px;
-  width:100%;
-  left:0;
-  padding-top:30px;
-  padding-left:20px;
-  padding-bottom:42px;
+.icon {
+  position: absolute;
+  top: 78px;
+  right: 0;
+  padding-right: 30px;
+  z-index: 1;
+}
+
+.icon i,.icon a {
+  margin: 3px;
+  color: white;
+  font-size: 20px;
+  z-index: 1;
+}
+
+a h4 {
+  position: fixed;
+  bottom: -20px;
+  width: 100%;
+  left: 0;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 42px;
   color: #000;
   text-decoration: none;
-  z-index:50000;
-  background-color:rgba(0,200,255,0.6);
-  text-align:left;
-
+  z-index: 2;
+  background-color: rgba(0,200,255,0.6);
+  text-align: left;
 }
 
-a h4:hover{text-decoration: underline;}
+a h4:hover {text-decoration: underline;}
 
-.grayfooter{
-  position:fixed;
-  bottom:0px;
-  width:300px;
-  right:0;
-  padding-top:4px;
-  padding-right:35px;
-  padding-bottom:4px;
+.grayfooter {
+  position: fixed;
+  bottom: 0px;
+  width: 300px;
+  right: 0;
+  padding-top: 4px;
+  padding-right: 35px;
+  padding-bottom: 4px;
   color: white;
   text-decoration: none;
-  z-index:50000;
-  background-color:rgba(50,50,50,1);
-  text-align:right;
-  font-size:small;
-  
+  z-index: 3;
+  background-color: rgba(50,50,50,1);
+  text-align: right;
+  font-size: small;
 }
 
-.trigrayfooter{
+.trigrayfooter {
   position:fixed;
   bottom:0;
   right:300px;
-  z-index:50000;
+  z-index:3;
   width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 0 26px 50px;
-border-color: transparent transparent rgba(50,50,50,1) transparent;
-
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 26px 50px;
+  border-color: transparent transparent rgba(50,50,50,1) transparent;
 }
 
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #000;
   text-decoration: underline;
 }
 
+/* sidenav css */
 
-@media screen and (min-width: 422px) and (max-width: 730px) {
-  .icon{display:none;}
- 
-  .menubutton{display:none;}
-  
-  div.menu{
-  background-color:black;
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;  
-  height:90px;
-  z-index:5;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: rgba(5,5,5,0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
 }
-  .line{
-  height:2px;
-  background-color:white;
-  position:relative;
-  top:60px;
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(0,200,255,0.6);
+  display: block;
+  transition: 0.3s;
+  font-weight:;
+  font-family: 'Open Sans','Microsoft JhengHei', '微軟正黑體',sans-serif, Verdana, Arial, 'Microsoft YaHei' !important;
+      
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+}
+
+@media screen and (min-width: 810px) {
+  
+  .mobilemenubotton {
+  /*z-index:4;
+  color:white;
+  position:absolute;
+  right:10px;
+  top:10px;*/
+  display:none;
   }
   
-  .trademark{position:absolute;
-    top:0;
-    left:0;
-    padding-left:10px;
-    padding-top:10px;
-    width:100%;
-    z-index:5;
+}
+
+
+
+/* sidenav css end*/
+
+
+@media screen and (min-width: 422px) and (max-width: 810px) {
+  .icon {display: none;}
+ 
+  .menubutton {display: none;}
+  
+  div.menu {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 90px;
+    z-index: 1;
   }
   
-  .subtrademark{
-    position:relative;
-    top:70px;
-    padding-left:10px;
-    margin-right:5px;
+  .line {
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 60px;
   }
-    
+  
+  .trademark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subtrademark {
+    position: relative;
+    top: 70px;
+    padding-left: 10px;
+    margin-right: 5px;
+  }
+  
+  .mobilemenubotton {
+  z-index: 4;
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  }
 }
 
 @media screen and (min-width: 310px) and (max-width: 422px) {
-  .icon{display:none;}
+  .icon {display: none;}
  
-  .menubutton{display:none;}
+  .menubutton{ display:none;}
   
-  div.menu{
-  background-color:black;
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;  
-  height:90px;
-  z-index:5;
-}
-  .line{
-  height:2px;
-  background-color:white;
-  position:relative;
-  top:60px;
+  div.menu {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 90px;
+    z-index: 1;
   }
   
-  .trademark{position:absolute;
-    top:0;
-    left:0;
-    padding-left:10px;
-    padding-top:10px;
-    width:100%;
-    z-index:5;
+  .line {
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 60px;
   }
   
-  .subtrademark{
-    position:relative;
-    top:70px;
-    padding-left:10px;
-    margin-right:5px;
+  .trademark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 1;
   }
   
+  .subtrademark {
+    position: relative;
+    top: 70px;
+    padding-left: 10px;
+    margin-right: 5px;
+  }
   
-    
+  .mobilemenubotton {
+  z-index: 4;
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  }
 }

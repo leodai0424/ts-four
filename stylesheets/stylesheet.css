@@ -6,9 +6,6 @@ html, body {
 }
 
 body {
- font-family:Arial,  sans-serif;
- line-height:1.5;
- font-size:16px;
  background: #fff;
  color: white;
  word-wrap: break-word;
@@ -16,8 +13,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
-
-p img { float: left; margin: 0 10px 5px 0; padding: 0; }
 
 img { border: 0; max-width: 100%; }
 
@@ -57,8 +52,8 @@ html,body {height: 100%;}
 
 .carousel-caption {
   position: absolute;
-  left: 15px;
-  right: 15px;
+  left: 0px;
+  right: 0px;
   bottom: 20px;
   z-index: 1;
   padding-top: 10px;
@@ -195,8 +190,9 @@ a:hover, a:focus {
 /* sidenav css */
 
 .sidenav {
+  
     height: 100%;
-    width: 0;
+    width: 100%;
     position: fixed;
     z-index: 5;
     top: 0;
@@ -206,10 +202,12 @@ a:hover, a:focus {
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
-}
+  }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  
+  text-align:center;
+  padding: 8px 8px 8px 8px;
   text-decoration: none;
   font-size: 25px;
   color: rgba(0,200,255,0.6);
@@ -220,19 +218,23 @@ a:hover, a:focus {
 }
 
 .sidenav .ench {
+  
   color:rgba(150,150,150,1);
-display:block;
+  display:block;
   margin-top:70px;
-margin-bottom:10px;
+  margin-bottom:10px;
 }
 
 .sidenav span a {
+  
   color:rgba(150,150,150,1);
-display:inline;}
+display:inline;
+margin:20px}
 
 
 .sidenav a:hover{
     color: #f1f1f1;
+  text-decoration: none;
 }
 
 .sidenav .closebtn {

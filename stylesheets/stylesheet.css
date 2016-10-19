@@ -222,7 +222,9 @@ a:hover, a:focus {
 .sidenav .ench {
   color:rgba(150,150,150,1);
 display:block;
-margin-bottom:10px;}
+  margin-top:50px;
+margin-bottom:10px;
+}
 
 .sidenav span a {
   color:rgba(150,150,150,1);
